@@ -12,7 +12,7 @@ export default function (eleventyConfig) {
     pathPrefix: '/switch-on/',
     dir: {
       input: 'src',
-      output: 'dist',
+      output: '_site',
       includes: '_includes',
       layouts: '_layouts',
     },
